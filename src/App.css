@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body {
     background-color: #13fdf2;
 }
@@ -13,11 +14,14 @@ body {
 
 .hadith-description {
     /* width: 250px; */
+    font-family: 'Permanent Marker', cursive;
     padding: 0 100px 0 100px;
     font-size: x-large;
     font-weight: lighter;
 }
 
 span {
-    font-size: xx-large;
+    font-family: 'Permanent Marker', cursive;
+    font-size: xxx-large;
+    font-style: bold;
 }
