@@ -1,6 +1,7 @@
 import './App.css';
 import axios from 'axios';
 import React,{useEffect, useState} from 'react';
+import Hadith from './Hadith';
 
 function App() {
     const [post, setPost] = useState(null);
@@ -15,15 +16,13 @@ function App() {
 
     if(!post) return null
 
-  return (
-    <div className="App">
-      <h1 className="hadith-name">{post.name}</h1>
-      <p className="hadith-description"><span>"</span>{post.description}<span>"</span></p>
-      <small className="hadith-ref">{post.references}</small>
-      <small className="grade">{post.grade}</small>
-    </div>
-  );
+    return (
+      <div className="App">
+          <Hadith post={post}/>
+      </div>
+    );
 }
+
 
 function random_num() {
       return Math.floor(Math.random() * 65) + 1
