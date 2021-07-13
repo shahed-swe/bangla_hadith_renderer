@@ -1,0 +1,23 @@
+body {
+    background-color: #13fdf2;
+}
+
+.App {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.hadith-name {
+    font-size: x-large;
+}
+
+.hadith-description {
+    /* width: 250px; */
+    padding: 0 100px 0 100px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+span {
+    font-size: xx-large;
+}
