@@ -14,7 +14,13 @@ function App() {
     },[])
 
 
-    if(!post) return null
+    if(post == null){
+      return (
+        <div className="App">
+          <h1>Loading....</h1>
+        </div>
+      )
+    }
 
     return (
       <div className="App">
